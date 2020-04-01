@@ -71,9 +71,7 @@ animation-timing-function: linear;
   .whoarewe{
     width: 65%;
   }
-  .whoarewe h1{
-    font-size: 5vw;
-  }
+  
   @keyframes titles{
     0%{
       margin-left: 0px;
@@ -121,7 +119,7 @@ animation-timing-function: linear;
   max-height: 400px;
   min-height: 380px;
   width:550px;
-  max-width:85%;
+  max-width:97%;
   display: inline-block;
   margin: 0 auto;
   margin-top: 35px;
