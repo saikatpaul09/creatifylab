@@ -15,8 +15,8 @@
   margin-top: 200px;
  color:black;
  font-weight: bold;
- font-family:Arial, Helvetica, sans-serif;
 padding: 5px;
+font-weight: bolder;
 }
 
 #ourwork{
@@ -29,8 +29,8 @@ color:lightblue;
 border: 2px lightblue solid;
 padding: 13px;
 opacity: 70%;
-animation: title 3s;
-animation-delay: 1s;
+animation: titles 2s;
+animation-delay: 2s;
 animation-timing-function: linear;
 }
 #ourwork:hover{
@@ -42,7 +42,7 @@ animation-timing-function: linear;
 }
 
 
-@keyframes title{
+@keyframes titles{
   0%{
     margin-left: 0px;
   }
@@ -57,13 +57,24 @@ animation-timing-function: linear;
   #titlemain h1{
     font-size: 6vw;
   }
+  #titlemain img{
+    height:15px;
+  }
   #ourwork{
     opacity: 80%;
+    font-size: 2.5vw;
   }
-  .title h1{
+  
+ .title h1{
     font-size: 6vw;
   }
-  @keyframes title{
+  .whoarewe{
+    width: 65%;
+  }
+  .whoarewe h1{
+    font-size: 5vw;
+  }
+  @keyframes titles{
     0%{
       margin-left: 0px;
     }
@@ -73,6 +84,9 @@ animation-timing-function: linear;
     100%{
       margin-left: 0px; 
     }
+  }
+  .whoarewe{
+    width: 75%;
   }
 }
 /*-------------------About section---------------------- */
@@ -93,4 +107,25 @@ animation-timing-function: linear;
 .col2{
   text-align: center;
   min-height: 150px;
+}
+/*-------------------who are we---------------------- */
+.col3{
+  height: 450px;
+  background-color: whitesmoke;
+  opacity: 80%;
+  text-align: center;
+  
+}
+.whoarewe{
+  position: relative;
+  max-height: 400px;
+  min-height: 380px;
+  width:550px;
+  max-width:85%;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 35px;
+  color: black;
+  background-color: yellow;
+  padding: 15px;
 }
