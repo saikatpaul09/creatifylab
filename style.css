@@ -115,14 +115,14 @@ animation-timing-function: linear;
   background-color: whitesmoke;
   opacity: 80%;
   text-align: center;
-  padding: 40px;
+  padding: 20px;
 }
 .whoarewe{
   position: relative;
   max-height: 450px;
   min-height: 420px;
   width:550px;
-  max-width:95%;
+  max-width:100%;
   display: inline-block;
   margin: 0 auto;
   color: black;
