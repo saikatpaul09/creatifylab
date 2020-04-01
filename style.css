@@ -1,0 +1,96 @@
+/*-------------------navbar---------------------- */
+.nav-item:hover{
+  background-color:whitesmoke;
+}
+.col1{
+  height: 500px;
+  text-align: center;
+  background-image: url('backg1.jpg');
+  background-size: cover;
+  opacity: 90%;
+}
+#titlemain{
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 200px;
+ color:black;
+ font-weight: bold;
+ font-family:Arial, Helvetica, sans-serif;
+padding: 5px;
+}
+
+#ourwork{
+position: relative;
+display: inline-block;
+margin: 0 auto;
+margin-top: 50px;
+background-color: black;
+color:lightblue;
+border: 2px lightblue solid;
+padding: 13px;
+opacity: 70%;
+animation: title 3s;
+animation-delay: 1s;
+animation-timing-function: linear;
+}
+#ourwork:hover{
+  background-color:black;
+  color:blue;
+  cursor: pointer;
+  border: 2px blue solid;
+  opacity: 80%;
+}
+
+
+@keyframes title{
+  0%{
+    margin-left: 0px;
+  }
+  50%{
+    margin-left: 100px;
+  }
+  100%{
+    margin-left: 0px; 
+  }
+}
+@media only screen and (max-width:600px){
+  #titlemain h1{
+    font-size: 6vw;
+  }
+  #ourwork{
+    opacity: 80%;
+  }
+  .title h1{
+    font-size: 6vw;
+  }
+  @keyframes title{
+    0%{
+      margin-left: 0px;
+    }
+    50%{
+      margin-left: 50px;
+    }
+    100%{
+      margin-left: 0px; 
+    }
+  }
+}
+/*-------------------About section---------------------- */
+.title{
+  color: aqua;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.underline{
+  display: inline-block;
+  margin: 0 auto;
+  background:aqua;
+  height :3px;
+  width: 50%; 
+}
+
+.col2{
+  text-align: center;
+  min-height: 150px;
+}
