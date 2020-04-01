@@ -112,7 +112,7 @@ animation-timing-function: linear;
 /*-------------------who are we---------------------- */
 .col3{
   height: 500px;
-  max-height: 550px;
+  max-height: 530px;
   background-color: whitesmoke;
   opacity: 80%;
   text-align: center;
@@ -121,7 +121,7 @@ animation-timing-function: linear;
 .whoarewe{
   position: relative;
   height: 420px;
-  max-height: 450px;
+  max-height: 460px;
   width:550px;
   max-width:100%;
   display: inline-block;
@@ -129,6 +129,5 @@ animation-timing-function: linear;
   color: black;
   background-color: yellow;
   padding: 15px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
-
