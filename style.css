@@ -31,8 +31,8 @@ padding: 13px;
 opacity: 70%;
 animation: titles 2s;
 animation-delay: 2s;
+animation-iteration-count: 3;
 animation-timing-function: linear;
- animation-iteration-count: 3;
 }
 #ourwork:hover{
   background-color:black;
@@ -72,7 +72,9 @@ animation-timing-function: linear;
   .whoarewe{
     width: 65%;
   }
-  
+  .whoarewe h1{
+    font-size: 5vw;
+  }
   @keyframes titles{
     0%{
       margin-left: 0px;
@@ -109,21 +111,20 @@ animation-timing-function: linear;
 }
 /*-------------------who are we---------------------- */
 .col3{
-  height: 450px;
+  height: 500px;
   background-color: whitesmoke;
   opacity: 80%;
   text-align: center;
-  
+  padding: 40px;
 }
 .whoarewe{
   position: relative;
-  max-height: 400px;
-  min-height: 380px;
+  max-height: 450px;
+  min-height: 420px;
   width:550px;
-  max-width:97%;
+  max-width:95%;
   display: inline-block;
   margin: 0 auto;
-  margin-top: 35px;
   color: black;
   background-color: yellow;
   padding: 15px;
