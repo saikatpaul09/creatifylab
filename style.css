@@ -86,8 +86,8 @@ animation-timing-function: linear;
       margin-left: 0px; 
     }
   }
-  .whoarewe{
-    width: 75%;
+  .whoarewe p{
+    font-size: 3vw;
   }
 }
 /*-------------------About section---------------------- */
