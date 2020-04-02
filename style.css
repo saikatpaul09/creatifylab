@@ -115,6 +115,7 @@ animation-timing-function: linear;
   opacity: 80%;
   text-align: center;
   padding: 20px;
+  background-color: whitesmoke;
 }
 .whoarewe{
   position: relative;
@@ -127,6 +128,6 @@ animation-timing-function: linear;
   color: black;
   background-color: yellow;
   padding: 10px;
-  margin-top: 10px;
+  margin-top:28px ;
   
 }
