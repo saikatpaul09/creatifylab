@@ -84,6 +84,12 @@ animation-timing-function: linear;
   #ourwork{
     font-size: 2.6vw;
   }
+  .title {
+    font-size: 2vw;
+  }
+  .underline{
+    font-size: 2vw;
+  }
 }
 /*-------------------About section---------------------- */
 .title{
@@ -102,7 +108,7 @@ animation-timing-function: linear;
 
 .col2{
   text-align: center;
-  height: 150px;
+  max-height: 150px;
 }
 /*-------------------who are we---------------------- */
 .col3{
