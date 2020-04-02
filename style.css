@@ -107,6 +107,7 @@ animation-timing-function: linear;
 .col2{
   text-align: center;
   max-height: 150px;
+   min-height: 140px;
 }
 /*-------------------who are we---------------------- */
 .col3{
