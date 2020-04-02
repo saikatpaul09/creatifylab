@@ -61,17 +61,6 @@ animation-timing-function: linear;
   #titlemain img{
     height:15px;
   }
-  #ourwork{
-    opacity: 80%;
-    font-size: 2.5vw;
-  }
-  
- .title h1{
-    font-size: 6vw;
-  }
-  .whoarewe{
-    width: 65%;
-  }
   .whoarewe h1{
     font-size: 5vw;
   }
@@ -86,8 +75,11 @@ animation-timing-function: linear;
       margin-left: 0px; 
     }
   }
+  .col3{
+    background-color: whitesmoke;
+  }
   .whoarewe p{
-    font-size: 3vw;
+    font-size: 3vw; 
   }
 }
 /*-------------------About section---------------------- */
@@ -107,7 +99,7 @@ animation-timing-function: linear;
 
 .col2{
   text-align: center;
-  min-height: 150px;
+  height: 150px;
 }
 /*-------------------who are we---------------------- */
 .col3{
@@ -119,6 +111,7 @@ animation-timing-function: linear;
 .whoarewe{
   position: relative;
   height: 350px;
+  
   width:550px;
   max-width:100%;
   display: inline-block;
